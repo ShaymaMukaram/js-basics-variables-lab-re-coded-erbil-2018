@@ -4,6 +4,7 @@ describe('index.js', function () {
   describe('companyName', function () {
     it('is set as Scuber', function () {
       expect(companyName).to.equal('Scuber');
+      al('Scuber');
     });
 
     it('raises error if the companyName is changed', function () {
